@@ -16,7 +16,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: terraform-pipeline
+        working-directory: Parant_module\Environments\Pre-Prod
 
     steps:
       - name: Checkout code
