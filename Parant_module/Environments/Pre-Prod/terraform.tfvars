@@ -1,7 +1,7 @@
 
 rgs = {
   rg_100 = {
-    name     = "RG_Env1"
+    name     = "RG_Env"
     location = "centralindia"
   }
   rg_101 = {
