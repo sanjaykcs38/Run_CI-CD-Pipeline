@@ -5,7 +5,7 @@ module "resource_group" {
 }
 module "virtual_network" {
   depends_on = [module.resource_group]
-  source     = "../..../../Child_module/azurerm_Virtual_Network"
+  source     = "../../../Child_module/azurerm_Virtual_Network"
   vnets      = var.vnets
 }
 module "subnets" {
